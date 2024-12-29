@@ -1,0 +1,4 @@
+# Definição
+Chegamos então no processo de ajuste do modelo. Estamos trabalhando aqui com **Modelos Lineares Generalizados** para **regressão binária**, ou seja, uma predição no discreto, $\small Y \in \{0,1\}$. Dado o $domínio$ de $y$, a estrutura de tradicional Regressão Linear baseada na distribuição $\small Normal$, para $y \in \mathbb{R}$, não modela adequadamente os dados, afinal de contas não queremos que nosso modelo preveja $\small 1.5,\ 0.2,\ 102$... para variável cujo o valor é $\small 0$ ou $\small 1$.
+
+[Modelos Lineares Generalizados (GLMs)](https://link.springer.com/book/10.1007/978-1-4419-0118-7) são úteis justamente por serem uma generalização dos conceitos de modelagem linear para distribuições diversas, desde que essas distribuições façam parte da [família de distribuições exponenciais (edm)](https://en.wikipedia.org/wiki/Exponential_family). Dito isso, precisamos então encontrar uma nova distribuição para o nosso conjunto de dados.
